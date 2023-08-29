@@ -1,15 +1,14 @@
 // import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import UserPortfolio from './UserPortfolio';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-
-      <h1>Hello World</h1>
-      <p>I am Efe Oyiborhoro, this is my first React application.</p>
-
+    <div className="app">
+      <UserPortfolio/>
     </div>
   );
-}
+};
 
 export default App;
