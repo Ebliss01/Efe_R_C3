@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
-import UserPortfolio from './UserPortfolio';
+import UserPortfolio from './components/UserPortfolio';
 
 
 const App = () => {
