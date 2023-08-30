@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import UserPortfolio from './components/UserPortfolio';
 
 function App() {
   return (
     <div className="App">
-       <h1>Hello World</h1>
-       <p>I am Efe Oyiborhoro, this is my first React application.</p>
+       <UserPortfolio/>
     </div>
   );
 }
