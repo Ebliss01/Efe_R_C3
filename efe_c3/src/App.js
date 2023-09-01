@@ -1,13 +1,28 @@
+//App.js
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import UserPortfolio from './components/UserPortfolio';
-// import Button from './components/Button';
+// import UserPortfolio from './components/UserPortfolio';
+import Button from './components/Button';
 
-function App() {
+
+
+
+const App = () => {
+  //login logic added
+  const handleLoginClick = () => {
+    console.log("Login button clicked");
+  };
+
+  const handleSigninClick = () => {
+    //Signing Logic Added
+    console.log("Signin button clicked");
+  };
+
   return (
-    <div className="App">
-      <UserPortfolio/>
+    <div>
+      <Button label="Login" onClick={handleLoginClick} />
+      <Button label="Signin" onClick={handleSigninClick} />
     </div>
   );
 };
