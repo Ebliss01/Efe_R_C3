@@ -10,17 +10,17 @@ const UserPortfolio = () => {
     <div className="user-portfolio">
       <h1>{fullName}'s Portfolio</h1>
 
-      <div className="section">
+      <div className="Education-Section">
         <h2>Educational Background</h2>
         <p>{educationalBackground}</p>
       </div>
 
-      <div className="section">
+      <div className="Professinal-section">
         <h2>Professional Background</h2>
         <p>{professionalBackground}</p>
       </div>
 
-      <div className="section">
+      <div className="Skills-section">
         <h2>Skills</h2>
         <ul>
           {skills.map((skill, index) => (
